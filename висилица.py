@@ -92,8 +92,6 @@ def check_alpha(event, word):
         draw_man(lifes)
         # рисуем: голова, тело, руки, ноги, gg
     else:
-        # собираем слово (отрисовка букв)
-        # как только мы заполнили все буквы, то есть все элементы состоят из букв, а не из __, то вызываем функцию game_over or game_win
         for i in range(len(label_word)):
             if (i in pos):
                 label_word[i].config(text=word[i])

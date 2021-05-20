@@ -128,9 +128,9 @@ def game_over():
         canvas.create_text(canvas.winfo_width() / 2 + 200, canvas.winfo_height() / 2 - 200, font='Arial 40',
                            text='Game Over Не расстраивайся)', fill='red')
 
-    def game_win():
-        for btn in btn_alpha:
-            btn.destroy()
+def game_win():
+    for btn in btn_alpha:
+        btn.destroy()
 
         canvas.create_text(canvas.winfo_width() / 2 + 200, canvas.winfo_height() / 2 - 200, font='Arial 40',
                            text='Game Over - Ты молодец) ', fill='red')

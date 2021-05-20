@@ -128,14 +128,14 @@ def game_over():
         btn.destroy()
 
         canvas.create_text(canvas.winfo_width() / 2 + 200, canvas.winfo_height() / 2 - 200, font='Arial 40',
-                           text='Game Over Неудачник', fill='red')
+                           text='Game Over Не расстраивайся) все еще впереди)', fill='red')
 
     def game_win():
         for btn in btn_alpha:
             btn.destroy()
 
         canvas.create_text(canvas.winfo_width() / 2 + 200, canvas.winfo_height() / 2 - 200, font='Arial 40',
-                           text='Game Over Вика умница (нет)', fill='red')
+                           text='Game Over - Ты молодец) ', fill='red')
 
 
 window = Tk()
